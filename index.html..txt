@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anunay Aryan Fashion Brand">
+    <title>Anunay Aryan</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #fff;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .gallery img {
+            width: 100%;
+            border: 5px solid #444;
+        }
+        footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anunay Aryan</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <img src="your-image-1.jpg" alt="Fashion Work 1">
+        <img src="your-image-2.jpg" alt="Fashion Work 2">
+        <img src="your-image-3.jpg" alt="Fashion Work 3">
+        <!-- Add more images here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anunay Aryan Fashion Brand</p>
+    </footer>
+</body>
+</html>
